@@ -166,98 +166,106 @@
 
 		<h3 class="text-center">Contact Me!</h3>
 		<div class="container py-5">
-			
-			<div id="contact-me" class="row justify-content-center">
-				<div class="col-3 px-0 text-center">
-					<a href="tel:+639455391185" class="text-decoration-none">
-						<h5>Phone</h5>
-						<p>+63 945 539 1185</p>
-					</a>
-				</div>
-				<div class="col-3 px-0 text-center">
-					<a href="https://www.linkedin.com/in/khryzmd/" target="_blank" class="text-decoration-none">
-						<h5>LinkedIn</h5>
-						<p>Khryzmiel Dabu</p>
-					</a>
-				</div>
-			</div>
-			<div class="row mt-5 justify-content-center">
-				<div class="col-xl-6 col-lg-8 col-md-10">
-					<form id="form-col" class="p-5">
-						<!-- Name text input -->
-						<div class="mb-3">
-							<label for="name" class="form-label">Full Name</label>
-							<input
-							type="text"
-							class="form-control"
-							id="name"
-							placeholder="Jane Doe" />
+			<div class="row">
+				<div class="col-lg-6 d-flex-lg flex-lg-column justify-content-center align-items-center ">
+					<div id="contact-me" class="row flex-lg-column align-items-center justify-content-center">
+						<div class="col-6 px-0 text-center py-5">
+							<a href="tel:+639455391185" class="text-decoration-none">
+								<h5>Phone</h5>
+								<p>+63 945 539 1185</p>
+							</a>
 						</div>
-						<!-- Email input -->
-						<div class="mb-3">
-							<label for="email" class="form-label">Email Address</label>
-							<input
-							type="email"
-							class="form-control"
-							id="email"
-							placeholder="name@example.com" />
-						</div>
-						<!-- Message textarea -->
-						<div class="mb-3">
-							<label for="message" class="form-label">Message</label>
-							<div class="form-floating">
-								<textarea
-								class="form-control"
-								id="message"
-								></textarea>
-							</div>
-						</div>
-						<!-- Button -->
-						<div class="mb-3 text-center">
-							<button
-							type="button"
-							class="btn"
-							data-bs-toggle="modal"
-							data-bs-target="#modalDiv">
-							Send Email
-						</button>
-					</form>
-				</div>
-				<div
-				class="modal fade"
-				id="modalDiv"
-				data-bs-backdrop="static"
-				data-bs-keyboard="false"
-				tabindex="-1"
-				aria-labelledby="staticBackdropLabel"
-				aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h6 class="modal-title" id="modalDivLabel"
-							>Thank you for contacting me!</h6
-							>
-							<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"></button>
-						</div>
-						<div class="modal-body text-center">
-							Message successfully sent
-						</div>
-						<div class="modal-footer">
-							<button
-							type="button"
-							class="btn btn-secondary"
-							data-bs-dismiss="modal"
-							>Close</button
-							>
+						<div class="col-6 px-0 text-center py-5">
+							<a href="https://www.linkedin.com/in/khryzmd/" target="_blank" class="text-decoration-none">
+								<h5>LinkedIn</h5>
+								<p>Khryzmiel Dabu</p>
+							</a>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-6 ">
+					<div class="row mt-lg-0 mt-5 justify-content-center">
+						<div class="col-md-12">
+							<form id="form-col" class="px-5">
+								<!-- Name text input -->
+								<div class="mb-3">
+									<label for="name" class="form-label">Full Name</label>
+									<input
+									type="text"
+									class="form-control"
+									id="name"
+									placeholder="Jane Doe" />
+								</div>
+								<!-- Email input -->
+								<div class="mb-3">
+									<label for="email" class="form-label">Email Address</label>
+									<input
+									type="email"
+									class="form-control"
+									id="email"
+									placeholder="name@example.com" />
+								</div>
+								<!-- Message textarea -->
+								<div class="mb-3">
+									<label for="message" class="form-label">Message</label>
+									<div class="form-floating">
+										<textarea
+										class="form-control"
+										id="message"
+										></textarea>
+									</div>
+								</div>
+								<!-- Button -->
+								<div class="mb-3 text-center text-lg-start">
+									<button
+									type="button"
+									class="btn"
+									data-bs-toggle="modal"
+									data-bs-target="#modalDiv">
+									Send Email
+								</button>
+							</form>
+						</div>
+						<div
+						class="modal fade"
+						id="modalDiv"
+						data-bs-backdrop="static"
+						data-bs-keyboard="false"
+						tabindex="-1"
+						aria-labelledby="staticBackdropLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h6 class="modal-title" id="modalDivLabel"
+									>Message successfully sent</h6
+									>
+									<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="modal"
+									aria-label="Close"></button>
+								</div>
+								<div class="modal-body text-center">
+									Thank you for contacting me!
+								</div>
+								<div class="modal-footer">
+									<button
+									type="button"
+									class="btn btn-secondary"
+									data-bs-dismiss="modal"
+									>Close</button
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
 
+			
+			
 		</div>
 	</section>
 	<!-- contact end-->
