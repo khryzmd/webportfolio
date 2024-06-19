@@ -41,8 +41,10 @@ form, #contact-me div > a{
 	height: 100px;
 }
 
-button {
+#contact button {
 	background-color: #6d8db3 !important;
 	color: #EDEDED !important;
 }
+
+
 
