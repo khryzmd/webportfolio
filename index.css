@@ -1,50 +1,123 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Root Variables */
+:root {
+  --text: #ededed;
+  --bg1: #171717;
+  --bg2: #121212;
+  --primary: #6d8db3;
+  --secondary: #808080;
+}
+
 body {
-	font-family: "Poppins", sans-serif;
-	background-color: #171717;
-	color: #EDEDED;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg1);
+  color: var(--text);
 }
 
-nav, #contact-me div {
-	background-color: #171717;
+#landing,
+#about,
+#tools,
+#projects,
+#contact {
+  background-color: var(--bg2);
 }
 
-#landing, #about, #tools, #projects, #contact {
-	background-color: #121212;
+#landing span,
+#about span,
+nav a > span,
+h3,
+h5 {
+  color: var(--primary) !important;
 }
 
-#landing span, #about span, nav a > span, h3, h5{
-	color: #6d8db3 !important;
+/* Navbar Section */
+nav,
+#contact-me div {
+  background-color: var(--bg1);
+}
+.nav-link {
+  color: var(--text) !important;
+}
+.nav-link:hover {
+  color: var(--primary) !important;
 }
 
-#country, #projects a{
-	color: #808080;
+/* End of Navbar Section */
+
+#country,
+#projects a {
+  color: var(--secondary);
 }
 
-#tools img{
-	width: 150px;
+/* Tools Section */
+#tools img {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
 }
+/* End of Tools Section */
 
-.card div{
-	background-color: #171717 !important;
+/* Project Section */
+.card div {
+  background-color: var(--bg1) !important;
 }
+#projects p {
+  color: var(--text);
+}
+.note {
+  color: var(--secondary) !important;
+}
+.links a {
+  color: var(--primary) !important;
+}
+.links a:hover {
+  text-decoration: none;
+}
+#projects span {
+  color: var(--primary);
+}
+/* End of Project Section */
 
+/* Contact Section */
 .modal-dialog {
-	color:#121212 !important ;
+  color: var(--bg2) !important ;
 }
 
-form, #contact-me div > a{
-	background-color: #171717 !important;
-	color: #EDEDED !important;
+form,
+#contact-me div > a {
+  background-color: var(--bg1) !important;
+  color: var(--text) !important;
 }
 
 #message {
-	height: 100px;
+  height: 100px;
 }
 
 #contact button {
-	background-color: #6d8db3 !important;
-	color: #121212 !important;
+  background-color: var(--primary) !important;
+  color: var(--bg1) !important;
 }
 
+#contact button:hover {
+  color: var(--text) !important;
+}
 
+#contact a p:hover {
+  color: var(--secondary);
+}
 
+/* End of Contact Section */
+
+@media screen and (max-width: 1000px) {
+  #tools img {
+    width: 100px;
+    height: 100px;
+  }
+}

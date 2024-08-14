@@ -1,287 +1,506 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Bootstrap Link -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="./index.css">
-	<title>Capstone 1</title>
-</head>
-<body>
-	<!-- navbar -->
-	<nav class="navbar fixed-top navbar-expand-md navbar-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand ms-md-5 ps-5" href="#"><span>KHRYZ</span>MD</a>
-			<button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse text-center" id="navbarNav">
-				<ul class="navbar-nav ms-auto me-md-5 pe-md-5">
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="#landing">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#tools">Tools</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- navbar end -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <title>Khryzmiel Dabu</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span>KHRYZ</span>MD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#landing">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
 
-	<!-- home -->
-	<section id="landing" class="container">
-		<div class="row">
-			<div class="vh-100 col-md-6 d-flex flex-column justify-content-center offset-1">
-				<h1 class="fs-2">Hello, I'm <span>Khryz</span></h1>
-				<p>a Full Stack Web Developer</p>
-			</div>
-		</div>
-	</section>
-	<!-- home end-->
+    <!-- home -->
+    <section id="landing" class="container">
+      <div class="row">
+        <div
+          class="vh-100 col-11 d-flex flex-column justify-content-center offset-1"
+        >
+          <h1 class="fs-2">Hello, I'm <span>Khryz</span></h1>
+          <p>a Full-Stack Web Developer</p>
+        </div>
+      </div>
+    </section>
+    <!-- home end-->
 
-	<!-- about -->
-	<section id="about" class="container my-5 py-5">
-		<div class="row">
-			<div class="col-10 col-lg-5 offset-1 order-2 order-lg-1 d-flex flex-column justify-content-center">
-				<h3 class="fs-4">About Me</h3>
-				<p class="fs-2 mb-0">Khryzmiel Dabu</p>
-				<p id="country">Philippines</p>
-				<p>Hey there! I'm a Mechanical Engineer with a passion for web development. Drawing on my solid engineering background, <span>I specialize in creating functional and user-friendly websites.</span></p>
-				<p>I'm dedicated to staying updated on the latest web development trends and enjoy connecting with fellow tech enthusiasts. Let's connect and explore how we can innovate together in this dynamic tech landscape. I'm excited to exchange ideas and discuss potential collaborations to drive transformative solutions.</p>
-				<div><a role="button" class="btn btn-outline-light" href="https://www.linkedin.com/in/khryzmd/" target="_blank">Connect with me</a></div>
-			</div>
-			<div class="col-6 col-lg-4 offset-lg-1 offset-3 order-1 order-lg-2 d-flex flex-column justify-content-center mb-5 mb-lg-0 ">
-				<img src="./images/about.jpg" class="img-fluid rounded-circle">
-			</div>
-		</div>
-	</section>
-	<!-- about end-->
+    <!-- about -->
+    <section id="about" class="container my-5 py-5">
+      <div class="row">
+        <div
+          class="col-10 col-lg-5 offset-1 order-2 order-lg-1 d-flex flex-column justify-content-center"
+        >
+          <h3 class="fs-4">About Me</h3>
+          <p class="fs-2 mb-0">Khryzmiel Dabu</p>
+          <p id="country">Philippines</p>
+          <p>
+            Hey there! I'm a Mechanical Engineer with a passion for web
+            development. Drawing on my solid engineering background,
+            <span
+              >I specialize in creating functional and user-friendly
+              websites.</span
+            >
+          </p>
+          <p>
+            I'm dedicated to staying updated on the latest web development
+            trends and enjoy connecting with fellow tech enthusiasts. Let's
+            connect and explore how we can innovate together in this dynamic
+            tech landscape. I'm excited to exchange ideas and discuss potential
+            collaborations to drive transformative solutions.
+          </p>
+          <div>
+            <a
+              role="button"
+              class="btn btn-outline-light"
+              href="https://www.linkedin.com/in/khryzmd/"
+              target="_blank"
+              >Connect with me</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-6 col-lg-4 offset-lg-1 offset-3 order-1 order-lg-2 d-flex flex-column justify-content-center mb-5 mb-lg-0"
+        >
+          <img src="./images/about.jpg" class="img-fluid rounded-circle" />
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
 
-	<!-- tools -->
-	<section id="tools" class="container py-5 my-5">
-		<h3 class="text-center">Tech Stack</h3>
-		<div class="d-flex flex-md-column justify-content-center">
-			<div class="d-flex flex-column flex-md-row justify-content-center">
-				<img src="images/logo-html5.png" />
-				<img src="images/logo-css3.png" />
-				<img src="images/logo-javascript.png" />
-				<img src="images/logo-git.png" />
-				<img src="images/logo-sublime-text-3.png" />
-			</div>
-			<div class="d-flex flex-column flex-md-row justify-content-center">
-				<img src="images/logo-postman.png" />
-				<img src="images/logo-mongodb.png" />
-				<img src="images/logo-expressjs.png" />
-				<img src="images/logo-react.png" />
-				<img src="images/logo-nodejs.png" />
-			</div>
-		</div>
-	</section>
-	<!-- tools end-->
+    <!-- tools -->
+    <section
+      id="tools"
+      class="container py-5 my-5 d-flex flex-lg-column justify-content-evenly"
+    >
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center">Front End</h3>
+          <div class="d-flex flex-lg-column justify-content-center mb-5">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-lg-center"
+            >
+              <img src="images/logo-html5.png" />
+              <img src="images/logo-css3.png" />
+              <img src="images/logo-bootstrap.png" />
+              <img src="images/logo-javascript.png" />
+              <img src="images/logo-react.png" />
+              <img src="images/logo-jquery.png" class="p-4" />
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-center">
+              <img src="images/logo-git.png" />
+              <img src="images/logo-github.png" class="p-3" />
+              <img src="images/logo-vercel.png" class="rounded-circle p-3" />
+              <img src="images/logo-glitch.png" class="p-4" />
+              <img src="images/logo-trello.png" class="p-4" />
+              <img src="images/logo-canva.png" class="p-4" />
+              <img src="images/logo-figma.png" class="p-2" />
+            </div>
+          </div>
+        </div>
 
-	<!-- projects -->
-	<section id="projects" class="container py-5 my-5">
-		<h3 class="text-center">Featured Projects</h3>
-		<div class="container my-5">
-			<div  class="row justify-content-center">
-				<div class="col-12 col-lg-10 col-xl-8" >
-					<div class="card mb-3 border-0">
-						<div class="row g-0">
-							<div class="col-md-4 d-flex align-items-center">
-								<img src="./images/front-end.png" class="img-fluid rounded-start" alt="personal portfolio project">
-							</div>
-							<div class="col-md-8">
-								<div  class="card-body">
-									<h5 class="card-title">Front-End Development</h5>
-									<p class="card-text">Design and develop a responsive personal portfolio website using HTML, CSS, and Bootstrap. The website includes sections such as Home, About, Tools, Projects, and Contact. It showcases your professional skills and projects with a clean, visually appealing interface, providing a comprehensive overview of your abilities and achievements in web development.</p>
-									<div class="links">
-										<a href="https://github.com/khryzmd/webportfolio/blob/master/index.html" target="_blank">Source Code</a>
-										<a href="#" target="_blank">Live Preview</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-lg-10 col-xl-8">
-					<div class="card mb-3 border-0">
-						<div class="row g-0">
-							<div class="col-md-4 d-flex align-items-center">
-								<img src="./images/back-end.png" class="img-fluid rounded-start" alt="e-commerce back end">
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Back-End Development</h5>
-									<p class="card-text">Develop a robust back-end system for an e-commerce platform using Node.js, Express, and MongoDB. This project involves creating RESTful APIs for user registration, authentication, product management, and order processing. The system will handle CRUD operations for products, user management, and order transactions, ensuring secure and efficient data handling and storage.</p>
-									<div class="links">
-										<a href="https://github.com" target="_blank">Source Code</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-lg-10 col-xl-8">
-					<div class="card mb-3 border-0">
-						<div class="row g-0">
-							<div class="col-md-4 d-flex align-items-center">
-								<img src="./images/full-stack.png" class="img-fluid rounded-start" alt="e-commerce full stack">
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Full-Stack Development</h5>
-									<p class="card-text">Build a comprehensive full-stack e-commerce application by integrating a responsive front-end with a robust back-end. Using HTML, CSS, Bootstrap, Node.js, Express, and MongoDB, this project involves creating a seamless user experience for browsing products, managing a shopping cart, and completing purchases. The platform will support user registration, authentication, product listings, and order management, demonstrating your ability to develop and integrate both client-side and server-side components.</p>
-									<div class="links">
-										<a href="https://github.com" target="_blank">Source Code</a>
-										<a href="https://github.com" target="_blank">Live Preview</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- projects end-->
+        <div class="col">
+          <h3 class="text-center">Back End</h3>
+          <div class="d-flex flex-lg-column justify-content-center mb-5">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-lg-center"
+            >
+              <img src="images/logo-nodejs.png" class="p-3" />
+              <img src="images/logo-expressjs.png" />
+              <img src="images/logo-ejs.png" class="p-3" />
+              <img src="images/logo-rest.png" />
+              <img src="images/logo-aws.jpg" class="rounded-circle" />
+            </div>
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-lg-center"
+            >
+              <img src="images/logo-axios.png" class="p-4" />
+              <img src="images/logo-postman.png" />
+              <img src="images/logo-mongodb.png" class="p-4" />
+              <img src="images/logo-postgresql.png" />
+              <img src="images/logo-render.png" class="p-4" />
+            </div>
+          </div>
+        </div>
 
-	<!-- contact -->
-	<section id="contact" class="container py-5 my-5">
+        <div class="col">
+          <h3 class="text-center">Full Stack</h3>
+          <div class="d-flex flex-lg-column justify-content-center">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-lg-center"
+            >
+              <img src="images/logo-mongodb.png" class="p-4" />
+              <img src="images/logo-expressjs.png" />
+              <img src="images/logo-react.png" />
+              <img src="images/logo-nodejs.png" class="p-3" />
+              <img src="images/logo-sublime-text-3.png" class="p-2" />
+              <img src="images/logo-vscode.png" class="p-4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- tools end-->
 
-		<h3 class="text-center">Contact Me!</h3>
-		<div class="container py-5">
-			<div class="row">
-				<!-- Contact Details -->
-				<div class="col-lg-5 d-flex-lg flex-lg-column justify-content-center align-items-center ">
-					<div id="contact-me" class="row flex-lg-column align-items-center justify-content-center">
-						<div class="col-4 px-0 text-center py-5">
-							<a href="tel:+639455391185" class="text-decoration-none">
-								<h5>Phone</h5>
-								<p>+63 945 539 1185</p>
-							</a>
-						</div>
-						<div class="col-4 px-0 text-center py-5">
-							<a href="https://www.linkedin.com/in/khryzmd/" target="_blank" class="text-decoration-none">
-								<h5>LinkedIn</h5>
-								<p>Khryzmiel Dabu</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<!-- Form -->
-				<div class="col-lg-6 ">
-					<div class="row mt-lg-0 mt-5 justify-content-center">
-						<div class="col-md-12">
-							<form id="form-col" class="p-5">
-								<!-- Name text input -->
-								<div class="mb-3">
-									<label for="name" class="form-label">Full Name</label>
-									<input
-									type="text"
-									class="form-control"
-									id="name"
-									placeholder="Jane Doe" />
-								</div>
-								<!-- Email input -->
-								<div class="mb-3">
-									<label for="email" class="form-label">Email Address</label>
-									<input
-									type="email"
-									class="form-control"
-									id="email"
-									placeholder="name@example.com" />
-								</div>
-								<!-- Message textarea -->
-								<div class="mb-3">
-									<label for="message" class="form-label">Message</label>
-									<div class="form-floating">
-										<textarea
-										class="form-control"
-										id="message"
-										></textarea>
-									</div>
-								</div>
-								<!-- Button -->
-								<div class="mb-3 text-center text-lg-start">
-									<button
-									type="button"
-									class="btn"
-									data-bs-toggle="modal"
-									data-bs-target="#modalDiv">
-									Send Email
-								</button>
-							</form>
-						</div>
-						<div
-						class="modal fade"
-						id="modalDiv"
-						data-bs-backdrop="static"
-						data-bs-keyboard="false"
-						tabindex="-1"
-						aria-labelledby="staticBackdropLabel"
-						aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h6 class="modal-title" id="modalDivLabel"
-									>Message successfully sent</h6
-									>
-									<button
-									type="button"
-									class="btn-close"
-									data-bs-dismiss="modal"
-									aria-label="Close"></button>
-								</div>
-								<div class="modal-body text-center">
-									Thank you for contacting me!
-								</div>
-								<div class="modal-footer">
-									<button
-									type="button"
-									class="btn btn-secondary"
-									data-bs-dismiss="modal"
-									>Close</button
-									>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!-- projects -->
+    <section id="projects" class="container py-5 my-5">
+      <h3 class="text-center">Featured Projects</h3>
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8">
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./images/airline-booking-system.png"
+                    class="img-fluid rounded-top"
+                    alt="personal portfolio project"
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      MCP Full-Stack Side Project: Airline Booking System
+                    </h5>
+                    <p class="card-text note">
+                      NOTE: This project is in progress. You can view the source
+                      code, read the Technical Specifications Document, and see
+                      a live preview of the static website. The full MERN Stack
+                      application is expected to be deployed and completed by
+                      August 19, 2024.
+                    </p>
+                    <p class="card-text">
+                      <span>Project Title:</span> Airline Booking System
+                    </p>
+                    <p class="card-text"><span>Role:</span> Team Lead</p>
+                    <p class="card-text">
+                      <span>Description:</span> As the team lead, I directed the
+                      development of a userfriendly web platform for airline
+                      reservations, aimed at simplifying flight searches and
+                      bookings. My focus was on enhancing user experience
+                      through advanced technology integration.
+                    </p>
+                    <div class="links">
+                      <a
+                        href="https://github.com/khryzmd/airline-booking-system"
+                        target="_blank"
+                        >Source Code</a
+                      >
+                      <a
+                        href="https://khryzmd.github.io/airline-booking-system/index.html"
+                        target="_blank"
+                        >Live Preview</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8">
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./images/e-commerce-application.png"
+                    class="img-fluid rounded-top"
+                    alt="e-commerce back end"
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Full-Stack Capstone: E-Commerce Application
+                    </h5>
+                    <p class="card-text note">
+                      NOTE: This is a full MERN stack application. The backend
+                      API is hosted on Render, and it may take 2-3 minutes for
+                      the front-end app (client side) to fetch it on your first
+                      visit. Subsequent fetches will be much faster. The User
+                      Interface will be improved in the coming weeks, but the
+                      full functionality of the e-commerce application is
+                      complete.
+                    </p>
+                    <p class="card-text">
+                      <span>Project Title:</span> E-Commerce Application
+                    </p>
+                    <p class="card-text">
+                      <span>Role:</span> Full-Stack Developer
+                    </p>
+                    <p class="card-text">
+                      <span>Description:</span> Developed a comprehensive
+                      e-commerce platform using the MERN stack (MongoDB,
+                      Express.js, React, Node.js). The platform features
+                      essential functionalities to enhance user experience and
+                      streamline online sales management. Designed and optimized
+                      multiple pages for seamless integration and high
+                      performance
+                    </p>
+                    <div class="links">
+                      <a
+                        href="https://github.com/khryzmd/capstone3"
+                        target="_blank"
+                        >Source Code</a
+                      >
+                      <a
+                        href="https://capstone3-khryzmds-projects.vercel.app/"
+                        target="_blank"
+                        >Live Preview</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8">
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="./images/blog-application.png"
+                    class="img-fluid rounded-top"
+                    alt="e-commerce full stack"
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Back-End Capstone: E-Commerce API
+                    </h5>
+                    <p class="card-text">
+                      <span>Project Title:</span> E-Commerce API
+                    </p>
+                    <p class="card-text">
+                      <span>Role:</span> Back-End Developer
+                    </p>
+                    <p class="card-text">
+                      <span>Description:</span> Hosted on AWS EC2, this
+                      E-Commerce API was designed and developed using the MVC
+                      (Model-View-Controller) pattern along with modern
+                      dependencies including bcrypt, cors, dotenv, express,
+                      express-session, jsonwebtoken, mongoose, passport, and
+                      passport-google-oauth20. The API offers robust
+                      functionality for user authentication and session
+                      management, with a focus on performance, scalability, and
+                      a seamless user experience in managing e-commerce
+                      operations.
+                    </p>
 
-				</div>
-			</div>
+                    <div class="links">
+                      <a
+                        href="https://github.com/khryzmd/capstone2"
+                        target="_blank"
+                        >Source Code</a
+                      >
+                      <a
+                        href="http://ec2-13-59-17-101.us-east-2.compute.amazonaws.com/b3/products/active"
+                        target="_blank"
+                        >Live Preview</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects end-->
 
-			
-			
-		</div>
-	</section>
-	<!-- contact end-->
+    <!-- contact -->
+    <section id="contact" class="container py-5 my-5">
+      <h3 class="text-center">Contact Me!</h3>
 
-	<!-- footer -->
-	<footer>
-		<div class="text-center">
-			<p>&copy; 2024 Khryzmiel dabu</p>
-		</div>
-	</footer>
+      <div class="row">
+        <!-- Contact Details -->
+        <div
+          class="col-lg-5 d-flex-lg flex-lg-column justify-content-center align-items-center"
+        >
+          <div
+            id="contact-me"
+            class="row flex-lg-column align-items-center justify-content-center"
+          >
+            <div class="col-10 col-sm-5 px-0 text-center py-5">
+              <a href="tel:+639455391185" class="text-decoration-none">
+                <h5>Phone</h5>
+                <p>+63 945 539 1185</p>
+              </a>
+            </div>
+            <div class="col-10 col-sm-5 px-0 text-center py-5">
+              <a
+                href="https://www.linkedin.com/in/khryzmd/"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <h5>LinkedIn</h5>
+                <p>Khryzmiel Dabu</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="col-lg-6">
+          <div class="row mt-lg-0 mt-5 justify-content-center">
+            <div class="col-10 p-0">
+              <form id="form-col" class="p-5">
+                <!-- Name text input -->
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="from_name"
+                    placeholder="Enter Full Name"
+                    required
+                  />
+                </div>
+                <!-- Email input -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email Address"
+                    required
+                  />
+                </div>
+                <!-- Message textarea -->
+                <div class="mb-3">
+                  <label for="message" class="mb-2">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    required
+                    placeholder="Enter Your Message"
+                  ></textarea>
+                </div>
 
-	<!-- footer end -->
+                <!-- Button -->
+                <div class="mb-3 text-start">
+                  <button type="submit" class="btn">Send Email</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	<!-- Bootstrap Script -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="modalDiv"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="modalDivLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h6 class="modal-title" id="modalDivLabel">
+                Message successfully sent
+              </h6>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              Thank you for contacting me!
+            </div>
+            <div class="modal-footer">
+              <button
+                id="closeModalButton"
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="text-center">
+        <p>&copy; 2024 Khryzmiel dabu</p>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- External JS -->
+    <script src="./index.js"></script>
+  </body>
 </html>
